@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">MyHelloCustomer</string>
+    <string name="app_name">第10回 提出課題</string>
+    <string name="text_live">お住いの地域を入力</string>
+    <string name="text_name">お名前を入力</string>
+    <string name="bt_view">表示</string>
+    <string name="bt_clear_live">住まいクリア</string>
+    <string name="bt_clear_name">お名前クリア</string>
 </resources>
