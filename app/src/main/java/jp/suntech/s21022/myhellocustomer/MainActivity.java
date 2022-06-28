@@ -41,7 +41,14 @@ public class MainActivity extends AppCompatActivity {
                     String inNameStr = inName.getText().toString();
                     String inLiveStr = inLive.getText().toString();
                     out.setText(inNameStr + "にお住いの" + inLiveStr + "さん、こんにちは！」");
-                    
+                    break;
+                case R.id.bt_liveclear: //住まい削除
+                    inLive.setText("");
+                    break;
+                case R.id.bt_nameclear: //お名前削除
+                    inName.setText("");
+                    break;
+
             }
         }
     }
