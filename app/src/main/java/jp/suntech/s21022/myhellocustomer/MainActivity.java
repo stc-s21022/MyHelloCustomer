@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.bt_view:  //表示
                     String inNameStr = inName.getText().toString();
                     String inLiveStr = inLive.getText().toString();
-                    out.setText(inNameStr + "にお住いの" + inLiveStr + "さん、こんにちは！」");
+                    out.setText(inLiveStr + "にお住いの" + inNameStr + "さん、こんにちは！」");
                     break;
                 case R.id.bt_liveclear: //住まい削除
                     inLive.setText("");
